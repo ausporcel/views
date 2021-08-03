@@ -1,0 +1,115 @@
+
+/* Asignando estilos a "planta.html*/
+
+.img__planta img {
+    
+    width: ($ancho*2);
+}
+
+.img__planta {
+
+height: 400px;
+width: 300px;
+
+}
+
+.img__planta1 img {
+
+width: ($ancho*2);
+}
+
+.img__planta1 {
+
+height: 650px;
+width: 500px;
+
+}
+
+.img__planta2 img {
+
+width: ($ancho*2);
+}
+
+.img__planta2 {
+
+height: 600px;
+width: 380px;
+
+}
+
+.padreElaboracion__Titulo {
+padding-left: 400px;
+
+
+}
+
+.parrafo__plantaPrincipal {
+
+color: $primary-color;
+font-size: 18pt;
+text-align: center;
+margin: 10px 15px;
+padding: 10px;
+}
+
+.tituloPlanta {
+
+padding-left: 1200px;
+color: $primary-color;
+font-size: $primary-size;
+
+}
+.tituloRecetas {
+
+color: black;
+background: linear-gradient(to right, #bebac5 0%, #ff8ab3 100%);
+font-size: 14pt;
+padding: 20px;
+margin: 5px
+}
+
+.tituloTarta {
+color: black;
+align-content: center;
+font-size: 14pt;
+padding-left: 250px;
+}
+
+#tituloTarta2 { 
+
+color: black;
+align-content: center;
+font-size: 14pt;
+padding-left: 170px;
+}
+
+
+
+.recetaGrid {
+display: flex;
+}
+
+.listaReceta { 
+
+color: rgba(73, 71, 71, 0.445);
+font-size: 15pt;
+letter-spacing: 1px;
+margin: 5px;
+} 
+
+.imgTarta__Frutilla img {
+
+width: ($ancho*2);
+}
+
+.imgTarta__Frutilla {
+
+height: 450px;
+width: 300px;
+
+}
+
+.tituloVideo {
+padding-left: 150px;
+
+}

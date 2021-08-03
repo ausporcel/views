@@ -1,14 +1,4 @@
-* {
-  margin: 0px;
-  padding: 0;
-  box-sizing: border-box; }
-
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f7f6f8;
-  width: 100%;
-  /*agregando operaciones*/ }
-
+/*agregando variables*/
 .header {
   /*agregando estilos al html/index*/
   background-image: linear-gradient(to right, #411386 0%, #ff8ab3 100%); }
@@ -31,7 +21,7 @@ body {
   /*agregando operaciones*/ }
 
 .nav-item a:hover {
-  /* modificando parte bootstrap  del index.html con las clases de bs*/
+  /* modificando parte  del nav bar/bootstrap  del index.html con las clases de bs*/
   color: #CC2CB9; }
 
 .navbar-transparent a:link {
@@ -40,69 +30,6 @@ body {
 .divNav {
   font-family: 'Roboto', sans-serif;
   font-size: 18pt; }
-
-/*agregando animacion "classm17"*/
-.ml7 {
-  position: relative;
-  font-weight: 900;
-  font-size: 20pt;
-  align-items: center; }
-
-.ml7 .text-wrapper {
-  position: relative;
-  display: flex;
-  padding-left: 500px;
-  margin: 20px;
-  overflow: hidden; }
-
-.ml7 .letter {
-  transform-origin: 0 100%;
-  display: inline-block;
-  line-height: 1em; }
-
-.pparrafoSeccion {
-  text-align: center;
-  padding-left: 500px;
-  font-size: 15pt;
-  margin: 10px;
-  padding: 20px; }
-
-.parrafo__Principal {
-  /*agregando condicional*/
-  color: #782DCC;
-  font-size: 18pt;
-  text-align: center;
-  margin: 10px 15px;
-  padding: 10px;
-  background-color: #B6C5F2; }
-
-.padre__Titulo {
-  color: #1f2263;
-  background: linear-gradient(to right, #714fab 34%, #c87e8d 63%);
-  font-size: 25pt;
-  margin: 0px;
-  padding-left: 100px; }
-
-.padreElaboracion__titulo {
-  color: #411386;
-  background: linear-gradient(to right, #714fab 34%, #c87e8d 63%);
-  font-size: 25pt;
-  margin: 0px;
-  padding-left: 500px; }
-
-.seccionImg {
-  padding: 5px;
-  margin: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-
-.seccionImg__index img {
-  width: 100%; }
-
-.seccionImg__index {
-  height: 400px;
-  width: 300px; }
 
 .titulo__beneficios:hover {
   color: #681FA4;
@@ -130,7 +57,8 @@ body {
   justify-content: center;
   padding-left: 10px;
   text-decoration: none;
-  background-color: #F0EBF4; }
+  background-color: #F0EBF4;
+  margin: 0px; }
 
 .copyright {
   background-image: linear-gradient(to right, #5e00eb 0%, #ff8ab3 100%); }
@@ -144,15 +72,27 @@ body {
   padding-left: 20px;
   position: sticky; }
 
-.titulo__Prueba {
-  /*agregando estilos a "productos.html"*/
-  color: #2c2b2b;
-  font-size: 25px;
-  padding-left: 500px;
-  margin: 0px;
-  background: linear-gradient(to right, #bebac5 0%, #ff8ab3 100%); }
+/*gregando animacion en el archivo del index.html  "classm17"*/
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 20pt;
+  align-items: center; }
 
-/*ejemplo de snippet"*/
+.ml7 .text-wrapper {
+  position: relative;
+  display: flex;
+  padding-left: 500px;
+  margin: 20px;
+  overflow: hidden; }
+
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em; }
+
+/*final de animacion en el archivo del index.html  "classm17"*/
+/*ejemplo de snippet creado con BS en el archivo productos.html"*/
 .product-grid {
   font-family: Raleway,sans-serif;
   text-align: center;
@@ -339,6 +279,70 @@ body {
     margin-bottom: 30px; } }
 
 /* final del ejemplo de snippet"*/
+/*agregando estilos al index.html*/
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f6f8;
+  width: 100%;
+  /*agregando operaciones*/ }
+
+.pparrafoSeccion {
+  text-align: center;
+  padding-left: 500px;
+  font-size: 15pt;
+  margin: 10px;
+  padding: 20px; }
+
+.parrafo__Principal {
+  /*agregando condicional*/
+  color: #782DCC;
+  font-size: 18pt;
+  text-align: center;
+  margin: 10px 15px;
+  padding: 10px;
+  background-color: #B6C5F2; }
+
+.padre__Titulo {
+  color: #1f2263;
+  background: linear-gradient(to right, #714fab 34%, #c87e8d 63%);
+  font-size: 25pt;
+  margin: 0px;
+  padding-left: 100px; }
+
+.padreElaboracion__titulo {
+  color: #411386;
+  background: linear-gradient(to right, #714fab 34%, #c87e8d 63%);
+  font-size: 25pt;
+  margin: 0px;
+  padding-left: 500px; }
+
+.seccionImg {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.seccionImg__index img {
+  width: 100%; }
+
+.seccionImg__index {
+  height: 400px;
+  width: 300px; }
+
+.titulo__Prueba {
+  /*agregando estilos a "productos.html"*/
+  color: #2c2b2b;
+  font-size: 25px;
+  padding-left: 500px;
+  margin: 0px;
+  background: linear-gradient(to right, #bebac5 0%, #ff8ab3 100%); }
+
 .tituloProductos {
   color: #26083b font-size 26pt;
   padding-left: 600px; }
@@ -347,23 +351,64 @@ table {
   color: #54585d;
   background: snow;
   border: 2px solidcolor;
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 30px; }
 
 .contenidoTabla .tabla {
   color: #54585d;
   background-color: B6CBF2;
   list-style: none; }
 
+.imagen__Productos img {
+  width: 100%; }
+
+.imagen__Productos {
+  height: 400px;
+  width: 300px; }
+
+.tituloBest {
+  color: #681FA4;
+  padding-left: 440px;
+  font-size: 16pt; }
+
+.parrafoProductos__best {
+  color: #681FA4;
+  padding-left: 280px;
+  font-size: 14pt; }
+
 /* Asignando estilos a "planta.html*/
 .img__planta img {
   width: 100%; }
 
 .img__planta {
-  height: 450px;
+  height: 400px;
   width: 300px; }
+
+.img__planta1 img {
+  width: 100%; }
+
+.img__planta1 {
+  height: 650px;
+  width: 500px; }
+
+.img__planta2 img {
+  width: 100%; }
+
+.img__planta2 {
+  height: 600px;
+  width: 380px; }
 
 .padreElaboracion__Titulo {
   padding-left: 400px; }
+
+.parrafo__plantaPrincipal {
+  color: #681FA4;
+  font-size: 18pt;
+  text-align: center;
+  margin: 10px 15px;
+  padding: 10px; }
 
 .tituloPlanta {
   padding-left: 1200px;
@@ -377,16 +422,22 @@ table {
   padding: 20px;
   margin: 5px; }
 
-#tituloTarta {
+.tituloTarta {
   color: black;
   align-content: center;
   font-size: 14pt;
   padding-left: 250px; }
 
+#tituloTarta2 {
+  color: black;
+  align-content: center;
+  font-size: 14pt;
+  padding-left: 170px; }
+
 .recetaGrid {
   display: flex; }
 
-#listaReceta {
+.listaReceta {
   color: rgba(73, 71, 71, 0.445);
   font-size: 15pt;
   letter-spacing: 1px;
@@ -460,3 +511,14 @@ table {
   font-weight: bold;
   padding-left: 10px;
   margin: 10px; }
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f6f8;
+  width: 100%;
+  /*agregando operaciones*/ }

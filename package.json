@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ausporcel/views.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ausporcel/views/issues"
+  },
+  "homepage": "https://github.com/ausporcel/views#readme"
 }

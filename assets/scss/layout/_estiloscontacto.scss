@@ -1,0 +1,45 @@
+
+
+/* Asignando estilos a "contacto.html"*/
+
+.parrafoConsultas {
+
+    color: rgba(120, 120, 120, 0.308);
+    font-size: 14pt;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.formulario { 
+
+margin: 10px;
+padding-left: 10px;
+border: 2px $primary-color;
+
+}
+
+.padreContactanos { 
+
+display: flex;
+justify-content: center;
+}
+
+.padre__Contactanos { 
+
+color: rgb(44, 43, 43);
+font-size: 25px;
+padding-left: 550px;
+margin: 0px;
+background: linear-gradient(to right, #bebac5 0%, #ff8ab3 100%);
+}
+
+
+.ayuda {
+
+color: $primary-color;
+font-size: 20pt;
+font-weight: bold;
+padding-left: 10px;
+margin: 10px;
+}

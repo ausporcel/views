@@ -1,0 +1,41 @@
+
+/* Asignando estilos a "servicios.html"*/
+
+.seccionImgServicios {
+
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.seccionImgServicios__Catering img {
+    
+    width: ($ancho*2);
+}
+
+.seccionImgServicios__Catering {
+    height: 450px;
+    width: 300px;
+
+}
+
+.parrafoServicios__P {
+
+    color: $primary-color;
+    font-size: 18pt;
+    text-align: center;
+    margin: 10px 15px;
+    padding: 10px;
+    background-color: #B6C5F2;
+
+}
+
+.titulos {
+
+    color: #A6BEF3;
+    letter-spacing: 1px;
+    margin: 5px;
+
+}

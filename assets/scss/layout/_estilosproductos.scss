@@ -1,0 +1,63 @@
+
+.titulo__Prueba {   /*agregando estilos a "productos.html"*/
+
+    color: rgb(44, 43, 43);
+    font-size: 25px;
+    padding-left: 500px;
+    margin: 0px;
+    background: linear-gradient(to right, #bebac5 0%, #ff8ab3 100%);
+}
+
+
+.tituloProductos {  
+
+    color: rgb(38, 8, 59)
+    font-size 26pt;
+    padding-left: 600px;
+}
+
+
+table {
+
+    color: rgb(84, 88, 93);
+    background: snow;
+    border: 2px solidcolor;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+}
+
+.contenidoTabla  .tabla { 
+
+    color: rgb(84, 88, 93);
+    background-color: B6CBF2;
+    list-style: none;
+}
+
+.imagen__Productos img {
+    
+    width: ($ancho*2);
+}
+
+
+.imagen__Productos { 
+
+    height: 400px;
+    width: 300px;
+
+}
+
+
+.tituloBest {
+
+    color: $primary-color;
+    padding-left: 440px;
+    font-size: 16pt;
+}
+
+.parrafoProductos__best {
+    color: $primary-color;
+    padding-left: 280px;
+    font-size: 14pt;
+}

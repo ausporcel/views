@@ -1,0 +1,72 @@
+
+$primary-color: #681FA4;
+
+$primary-size: 30pt;
+
+$secondary-color: #F0EBF4;
+
+$background-color: hsl(270, 14%, 97%);
+
+$ancho: 50%;
+
+$gradiant: linear-gradient(to right, #714fab 34%, #c87e8d 63%);
+
+$texto: violeta;
+
+
+.titulo__beneficios:hover {
+    
+    color: $primary-color;
+    font-size: 14pt;
+    padding-left: 10px;
+    transition: 3s;
+}
+
+.titulo__beneficios {
+    
+    color: $primary-color;
+
+}
+
+.redes__Titulo { 
+
+    color: indigo;
+    text-decoration: underline;
+}
+
+.redes__Enlaces {
+    
+    color: indigo;
+    font-size: 12pt;
+    padding-left: 20px;
+    background-color: $background-color;
+    list-style: none;
+}
+
+.footer__lista {
+
+    color:blueviolet;
+    font-size: 12pt;
+    justify-content: center;
+    padding-left: 10px;
+    text-decoration: none;
+    background-color: $secondary-color;
+    margin: 0px;
+
+}
+
+.copyright {
+
+    background-image: linear-gradient(to right, #5e00eb 0%, #ff8ab3 100%);  
+}
+
+.copyright__footer {
+
+    border-top: 1px solid beige;
+    margin: 5px;
+    color: whitesmoke;
+    font-size: 15pt;
+    justify-content: center;
+    padding-left: 20px;
+    position: sticky;
+}

@@ -1,0 +1,93 @@
+ /*agregando estilos al index.html*/
+
+
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body { 
+
+    font-family: 'Roboto', sans-serif;
+    background-color: $background-color;
+    width: ($ancho*2); /*agregando operaciones*/
+}     
+
+.pparrafoSeccion {
+
+    text-align: center;
+    padding-left: 500px;
+    font-size: 15pt;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+
+.parrafo__Principal { /*agregando condicional*/
+
+    @if $texto == violeta {
+        color: #782DCC;
+        
+    } @else if $texto == rojo {
+        color: black;
+
+    } @else if $texto == azul {
+        color: pink;
+    } @else {
+        color: blue;
+    }
+
+    font-size: 18pt;
+    text-align: center;
+    margin: 10px 15px;
+    padding: 10px;
+    background-color: #B6C5F2;
+
+}
+
+.padre__Titulo { 
+
+    color: #1f2263; 
+    background: $gradiant;
+    font-size: 25pt;
+    margin: 0px;
+    padding-left: 100px;
+
+}
+
+
+.padreElaboracion__titulo  { 
+
+    color:#411386; 
+    background: $gradiant;
+    font-size: 25pt;
+    margin: 0px;
+    padding-left: 500px;
+
+}
+
+.seccionImg {
+
+padding: 5px;
+margin: 5px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+
+.seccionImg__index img {
+    
+    width: ($ancho*2);
+}
+
+
+.seccionImg__index {
+
+    height: 400px;
+    width: 300px;
+
+}

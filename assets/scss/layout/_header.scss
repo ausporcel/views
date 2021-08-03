@@ -1,0 +1,62 @@
+
+$primary-color: #681FA4;
+
+$primary-size: 30pt;
+
+$secondary-color: #F0EBF4;
+
+$background-color: hsl(270, 14%, 97%);
+
+$ancho: 50%;
+
+$gradiant: linear-gradient(to right, #714fab 34%, #c87e8d 63%);
+
+$texto: violeta;
+
+.header { /*agregando estilos al html/index*/
+
+    background-image: linear-gradient(to right, #411386 0%, #ff8ab3 100%);
+}
+
+
+
+.header__logo {
+
+    width: 100px;
+    margin-left: 10px;
+    border: 1px solid $primary-color;
+    
+}
+
+.header__logo img {
+    width: ($ancho*2);
+}
+
+
+.seccion__titulo {
+
+    color: $primary-color;
+    font-size: $primary-size;
+    background: $gradiant;
+    display: flex;
+    justify-content: center;
+    width: ($ancho/2)+75;  /*agregando operaciones*/
+
+} 
+
+
+.nav-item a:hover { /* modificando parte  del nav bar/bootstrap  del index.html con las clases de bs*/
+
+    color: #CC2CB9;
+}
+
+.navbar-transparent a:link{ 
+    color: whitesmoke;
+}
+
+.divNav{ 
+
+   font-family: 'Roboto', sans-serif; ;
+    font-size: 18pt;
+
+}
